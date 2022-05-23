@@ -1,0 +1,149 @@
+body{
+    background: url(image/food2.jfif) no-repeat;
+   background-size:cover;
+    background-position:bottom;
+   
+    
+}
+.team-body{
+    background: hsl(240, 66%, 55%);
+  
+}
+
+header{
+    float: right;
+    width: 600p
+    margin: 10px;
+    margin-left: 20px;
+  
+    
+}
+header ul li{
+    float:left;
+    font-size:16px;
+    margin:3px;
+    list-style:none;
+    border-left: 1px solid wheat;
+    border-right: 1px solid wheat;
+    border-top: 1px solid wheat;
+   
+    width: 60px;
+    margin-right:30px;
+    padding: 5px;
+    margin-left: 35px;
+text-align:center;
+
+   
+    
+}
+header ul li a{
+ text-decoration: none;
+color: hsl(120, 45%, 94%);
+font-size:20px;
+
+}
+header ul li:hover{
+background: #444;
+
+}
+header ul li a:hover{ 
+    color:#022925
+}
+
+body{
+    background: #da6416;
+
+}
+.items{
+    position: absolute;
+     top: 80px;
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5px 20px;
+    grid-column-gap: 30px;
+    grid-row-gap: 100px;
+}
+.items .item img{
+    width:100%;
+    height: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s ease;
+    margin-top: 20px;
+    
+}
+.items .item img:hover{
+    transform: scale(1.05);
+}
+.items .item h1{
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.items .item button{
+padding: 5px 30px;
+text-align: center;
+border: none;
+background-color: darkblue;
+color: white;
+border-radius: 5px;
+font-size: 20px;
+display: block;
+margin: 0px auto;
+cursor: pointer;
+transition: 0,2s all;
+margin-bottom: -80px;
+}
+
+.items .item button:hover{
+transform: scale(1.04);
+}
+.pizza-content{
+    position: absolute;
+    margin-top: 550px;
+    color: azure;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+#contents{
+    position: absolute;
+    margin-top: 590px;
+    font-size: 15px;
+    display: flex;
+    margin-left: 30px;
+}
+.bread-content{
+    position: absolute;
+    margin-top: 560px;
+    color: azure;
+   
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 500px;
+    
+}
+#bread{
+    position: absolute;
+    margin-top: 590px;
+    font-size: 15px;
+    display: flex;
+    margin-left: 500px;
+}
+.masala-content{
+    position: absolute;
+    margin-top: 560px;
+    color: azure;
+   
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 900px;
+    
+}
+#masala{
+    position: absolute;
+    margin-top: 600px;
+    font-size: 15px;
+    display: flex;
+    margin-left: 900px;
+}

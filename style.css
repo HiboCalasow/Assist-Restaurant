@@ -1,0 +1,457 @@
+body{
+    background: url(image/food2.jfif) no-repeat;
+    background-size:cover;
+    background-position:bottom;
+  
+}
+.team-body{
+    background: hsl(240, 66%, 55%);
+   
+}
+
+header{
+    float: right;
+    position: absolute;
+    width:100%;
+    margin-left: 20%;
+   position: fixed;
+
+}
+header ul li{
+    
+    float:left;
+    font-size:16px;
+    margin:5px;
+    list-style:none;
+    border: 1px solid white;
+    margin-left: 90px;
+    width: 120px;
+    padding: 10px;
+    text-align:center;
+}
+header ul li a{
+ text-decoration: none;
+color: hsl(300, 100%, 100%);
+font-size:20px;
+
+}
+header ul li:hover{
+background: rgb(97, 90, 90);
+
+}
+header ul li a:hover{ 
+    color:#d11e18
+}
+.sidebar{
+    width: 24%;
+    height: 87%;
+    background: black;
+    opacity: 0.8;
+    padding: 40px;
+    
+}
+.sidebar h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 120px;
+}
+.sidebar h4{
+    color:darkgray;
+    text-align: justify;
+    line-height: 30px; font-weight: normal;
+}
+.sidebar button{
+    width: 260px;
+    height: 110px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 90px;
+}
+.sidebar button a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: justify;
+    line-height: 40px;
+    font-weight: bolder;
+}
+.sidebar button:hover{
+    background-color: rgba(213, 218, 223, 0.678) ;
+    cursor: pointer;
+}
+/* Team stats here */
+.container{
+    color: white;
+  
+}
+.profiles{
+    position: absolute;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding: 5px 10px;
+   grid-column-gap: 30px;
+   grid-row-gap: 50px;
+
+}
+
+
+.container .heading{
+    padding: 10px;
+    font-size: 40px;
+    font-style: bolde;
+}
+.container .heading span{
+    font-style: italic;
+    font-size: 30px;
+}
+.container .profiles .profile img{
+border-radius:300px;
+border: 3px solid #ff2600ee;
+width: 350px;
+height: 350px;
+margin-top: -15px;
+margin-left: 0px;
+float: left;
+
+}
+
+
+.container .profiles .profile h3{
+    margin-left: 110px;
+    font-size: 45px;
+    margin-top: -6px;
+
+}
+.container .profiles .profile h4{
+    margin-left: 140px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: -30px;
+}
+.container .profiles .profile p{
+    margin-left:20px;
+    letter-spacing:0.5px;
+    text-align:justify;
+    margin-right: 5px;
+    text-transform:capitalize;
+    justify-content: center;
+  
+}
+/* foods starts here  */
+
+
+
+.body-foods{
+    background: #da6416;
+
+}
+.items{
+    position: absolute;
+     top: 80px;
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5px 20px;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+}
+.items .item img{
+
+    width:100%;
+    height: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s ease;
+    margin-top: 20px;
+    
+}
+.items .item img:hover{
+    transform: scale(1.05);
+}
+.items .item h1{
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.items .item button{
+padding: 5px 30px;
+text-align: center;
+border: none;
+background-color: darkblue;
+color: white;
+border-radius: 5px;
+font-size: 20px;
+display: block;
+margin: 0px auto;
+cursor: pointer;
+transition: 0,2s all;
+margin-bottom: -80px;
+}
+
+.items .item button:hover{
+transform: scale(1.04);
+}
+
+
+    /* contect starts here */
+    .body-contect{
+        background: rgb(25, 207, 207);
+       
+    }
+    .sections{
+        background: white;
+        border-radius: 10px;
+        position: absolute;
+        margin-left:43%;
+        margin-top: 6%;
+        width: 48%;
+        height: 65%;
+        padding-left: 5%;
+        padding-top: 3%;
+    }
+    #contects{
+        color: crimson;
+       font-size: 40px;
+        text-align: center;
+        margin-top: -20px;
+        font-family: cursive;
+    }
+    .inputs{
+        margin-left: 30px;
+    
+    }
+    lebel{
+        color: crimson;
+        font-size: 30px;
+    }
+.input-text{
+width: 75%;
+height: 7%;
+font-size: 25px;
+color:blue;
+}
+textarea{
+    resize: none;
+    width: 75%;
+    height: 40%;
+    font-size: 25px;
+    color:blue;
+}
+.btn-contect{
+    width: 300px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 75px;
+    border-radius: 6px;
+    background-color: brown;
+}
+.image-contect{
+    width: 520px;
+    height: 500px;
+    position: absolute;
+    transition: 3s ease;
+    margin-top: 7%;
+}
+.image-contect:hover{
+    transform: scale(1.05);
+
+}
+/* Home Responsive */
+@media(max-width:768px){
+    header{
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 20px;
+        background: #db391cee;
+       right: 0px;
+     
+    }
+    
+    header ul li{
+        margin-bottom: 15px;
+        margin-left: 10px;
+        width: 90px;
+    }
+    
+.sidebar{
+    width: 25%;
+    height: 80%;
+   margin-top: 1%;
+    position: absolute;
+}
+}
+@media(max-width:588-300 px){
+    header {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 20px;
+       margin-left: 0px;
+    }
+    
+header ul li{
+    width: 90px;
+}
+
+    .sidebar{
+    width: 50%;
+    height: 20%;
+    top: 8%;
+    position: absolute;
+}
+}
+@media(max-width:453px){
+    header {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 10px;
+    }
+   
+header ul li{
+    width: 90px;
+}
+.sidebar{
+    width: 50%;
+    top: 4%;
+    position: absolute;
+}
+.sidebar button {
+    position: absolute;
+    width: 80%;
+    height: 22%;
+    margin-bottom: 50%;
+}
+}
+@media(max-width:989px){
+    header {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 10px;
+       
+        }
+    
+header ul li{
+    width: 90px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+.sidebar{
+    width: 50%;
+    height: 75%;
+    top: 10%;
+    position: absolute;
+}
+}
+/* Team Responsive */
+@media(max-width:768px){
+     .team-responsive{
+            width: 100%;
+            height: 70px;
+            position: absolute;
+             top: 60px;
+     }
+     .container .profiles .profile img{
+        width: 250px;
+        height: 250px;
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 10px;
+      
+  
+         } 
+      }
+@media(max-width:588px){
+  header {
+      width: 100%;
+      height: 70px;
+      position: absolute;
+      top: 20px;
+    }
+  
+  
+header ul li{
+    width: 90px;
+}
+}
+@media(max-width:453px){
+  header {
+      width: 100%;
+      height: 70px;
+      position: absolute;
+      top: 10px;
+      }
+  
+  
+header ul li{
+    width: 90px;
+}
+}
+  @media(max-width:989px){
+  header {
+      width: 100%;
+      height: 70px;
+      position: absolute;
+      top: 10px;
+    }
+    
+header ul li{
+    width: 90px;
+}
+    } 
+/* contect-responsive */
+@media(max-width:961px){
+    .image-contect{
+        width: 390px;
+        height: 600px;
+        top: 100px;
+    }
+    
+    .sections{
+        margin-top: 90px;
+              
+     }
+     
+.btn-contect{
+    margin-top: -1px;
+     margin-left: 1px;
+     margin-top: 10px;
+     }
+}
+@media(max-width:360px){
+    .image-contect{
+        width: 390px;
+        height: 300px;
+        top: 100px;
+    }
+    
+    .sections{
+        margin-top: 90px;
+        height: 300px;
+ 
+     }
+}
+
+@media(max-width:768px){
+
+    .sections{
+       margin-top: 90px;
+       
+    }
+.image-contect{
+    width: 290px;
+    height: 400px;
+    top: 100px;
+}
+.btn-contect{
+   margin-top: -1px;
+    margin-left: 1px;
+    margin-top: 10px;
+    }
+}
